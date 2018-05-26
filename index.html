@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rakesh Verma Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="navdiv">
+		<nav class="navbar">
+				<span class="open-slide">
+					<a href="#" onclick="open_close_SlideMenu()">
+						<svg id="svg" width="40" height="36">
+							<path d="M0,12 48,12" stroke="#fff" stroke-width="5"/>
+							<path d="M0,21 48,21" stroke="#fff" stroke-width="5"/>
+							<path d="M0,30 48,30" stroke="#fff" stroke-width="5"/>
+						</svg>
+
+					</a>
+				</span>
+			<ul id="nbar" class="navbar-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#WorkExperienceSection">Work Experience</a></li>
+				<li><a href="#educationSecction">Education</a></li>
+				<li><a href="#professionalSkillsSection">Professional Skill</a></li>
+				<li><a href="#contactSection">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="side-menu" class="side-bar">
+		<a href="#" onclick="close_SlideMenu()">Home</a>
+		<a href="#WorkExperienceSection" onclick="close_SlideMenu()">Work Experience</a>
+		<a href="#educationSecction" onclick="close_SlideMenu()">Education</a>
+		<a href="#professionalSkillsSection" onclick="close_SlideMenu()">Professional Skill</a>
+		<a href="#contactSection" onclick="close_SlideMenu()">Contact</a>
+	</div>
+
+	<div id="main" class="maindiv">
+
+		<section id="homeSection">
+			<div class="HomeDiv">
+				<img src="img\rakesh.jpg" alt="Rakesh Image" class="rakeshImg">
+				<p id="p3">Rakesh Verma</p>
+				<p id="p1">Software Engineering Analyst,Accenture, Pune </p>
+				<p>Seeking a challenging position in an organization which provides collaborative and developing environment, that appreciates positive attitude and utilizes individual’s qualities and skills to achieve the organization’s goal and also acknowledge performance and hard work.</p>
+				<a href="RakeshResume.docx" download="rakeshresumee.docx" id="resumeButtonAnchor"><button id="downloadButton" type="button" onclick="downloadResume()">Download Resume</button></a>
+				<br>
+				<br>
+			</div>
+		</section>
+
+		<section id="WorkExperienceSection">
+			<br>
+			<div>
+				<br>
+				
+				<h1>&ensp;Work Experience</h1>
+					<ul>
+						<li><span class="workexpspan">Accenture - Client: Virgin Media - UK</span></li>
+							<span class="WorkExpJobTitle">Pune, Maharashtra</span>
+							<span class="JobDuration">(Jan 2014 - Sep 2014)</span><br>
+							<span class="roleSpan">&ensp;Associate Test Engineer</span>
+							<ul>
+								<li>Requirement Gathering and Analysis</li>
+								<li>Test Planning</li>
+								<li>Test Estimation</li>
+								<li>Test Preperation</li>
+								<li>Test Execution</li>
+								<li>Identifying bugs and logging Defect in Quality Center</li>
+								<li>Triaging defect with concerned team and track till closure</li>
+								<li>Test Reporting</li>
+							</ul>
+						<br>
+						<li><span class="workexpspan">Accenture - Client: Vodafone - UK</span></li>
+							<span class="WorkExpJobTitle">Pune Maharashtra</span>
+							<span class="JobDuration">(Oct 2014 - Present)</span><br>
+							<span class="roleSpan">&ensp;Test Analyst</span>
+							<ul>
+								<li>Develop Strategic Plans for testing Efforts</li>
+								<li>Run workshops to gather, review and sign off Test Requirements with the business</li>
+								<li>Attend Business Walkthrough to help business review and sign off the Test Models/Plan</li>
+								<li>Accurately estimate testing efforts for any change request and feedback to the business for project scheduling purposes</li>
+								<li>Lead the onshore and offshore test team on Test Preparation and Execution activities</li>
+								<li>Liaise with third parties for Test Support.</li>
+								<li>Sending Test Reports to Business and stakeholders</li>
+								<li>Provide Test Support to Client for UAT</li>
+							</ul>
+					</ul>
+					<br>
+			</div>
+		</section>
+
+			
+
+			<section id="professionalSkillsSection">
+				<br>
+			<div>
+				<br>
+				<h1>&ensp;Professional Skills</h1>
+				<ul>
+					<li><span>Functional Testing and Telecom Domain Knowledge: OSS and BSS</span></li>
+					<br>
+					<li><span>Proficient in Technically leading and streamlining Complex Agile Delivery Projects</span></li>
+					<br>
+					<li><span>Conversant in Microsoft Excel – Macros, Formulae, Shortcuts, Pivots, etc</span></li>
+					<br>
+					<li><span>Proficient in Programming Languages/Framework : C , C++ , Java ,hibrnate,Spring, Python</span></li>
+					<br>
+					<li><span>Proficient in Web Development Technology: HTML, CSS, JavaScript, BootStraps, jQuery,Angular.js </span></li>
+					<br>
+					<li><span>Proficient in relational Databases : Oracle , SQL Server , SQL</span></li>
+					<br>
+					<li><span>Basic knowledge of Unix Command and shell Scripting</span></li>
+					<br>
+					<li><span>Proficient in Maven and GIT</span></li>
+					<br>
+					<li><span>Proficient in Selenium and Frameworks like TestNG and Cucumber</span></li>
+					<br>
+					<li><span>Good Understanding of SOAP and RESTful Webservices and use of SOAP UI tool</span></li>
+					<br>
+					<li><span>Strong Verbal and Written Communication AND Presentation Skills</span></li>
+					<br>
+				</ul>
+				<br>
+			</div>
+		</section>
+
+		<section id="educationSecction">
+				<br>
+			<div class="educationDiv">
+				<br>
+				<h1>&ensp;Education</h1>
+					<table class="AcademicsTable" style="width:80%" border="2px">
+						  <tr class="tableHeader">
+						    <th><h3>Examination / Degree</h3></th>
+						    <th><h3>Board / University</h3></th> 
+						    <th><h3>Year</h3></th>
+						    <th><h3>Percentage of Marks</h3></th>
+						  </tr>
+						   <tr>
+						    <th>B.Tech</th>
+						    <th>Gautam Budh Technical University</th> 
+						    <th>2013</th>
+						    <th>68.34</th>
+						  </tr>
+						  <tr>
+						    <th>XII</th>
+						    <th>C.B.S.E</th> 
+						    <th>2008</th>
+						    <th>75.4%</th>
+						  </tr>
+						  <tr>
+						    <th>X</th>
+						    <th>C.B.S.E</th> 
+						    <th>2006</th>
+						    <th>77.6</th>
+						  </tr>
+					</table>
+					<br>
+					
+			</div>
+			<div>
+				<br>
+				<h1>&ensp;Certifications</h1>
+				<div class="CertificationDiv">
+					<div>
+						<img src="img\JavaCertified.png" alt="Java Certified">
+						<p>Java Certified</p>
+					</div>
+					<div>
+						<img src="img\ISTQBCertified.png" alt="ISTQB Certified">
+						<p>ISTQB Certified</p>
+					</div>
+					<div>
+						<img src="img\TricentisCertified.png" alt="Tricentis Certified">
+						<p>Tricentis Certified Professional</p>
+					</div>
+
+					<br>
+				</div>
+			</div>
+		</section>
+
+
+			</section>
+			<br>
+			<section id="contactSection">
+			<div>
+				<br>
+				<h1>&ensp;Contacts</h1>
+				<ul>
+					<li><strong>Alternate Phone :</strong><span>  +91-9503896491</span></li>
+					<br>
+					<li><strong>Languages Known :</strong><span>  English, Hindi</span></li>
+					<br>
+					<li><strong>Passport Number:</strong><span>  P8748346</span></li>
+					<br>
+					<li><strong>Marital Status :</strong><span>  Single</span></li>
+					<br>
+					<li><strong>Nationality :</strong><span>  Indian</span></li>
+					<br>
+					<li><strong>Address :</strong><span>  A-204,Sun Fantasy Society , Ambegaon Khurd Pune - 411046</span></li>
+					<br>
+				</ul>
+				<h1>this is changed</h1>
+				<br>
+			</div>
+
+			<br>
+		</section>
+
+	</div>
+	<script>
+		var slideStatus = 0;
+		function open_close_SlideMenu(){
+			if(slideStatus === 0){
+				document.getElementById('side-menu').style.width='250px';
+				document.getElementById('side-menu').style.top='60px';
+				document.getElementById('main').style.marginLeft ='250px';
+				document.getElementById('main').style.transition ='0.5s';
+				slideStatus = 1;
+			}
+			else
+			{
+				document.getElementById('side-menu').style.width='0';
+				document.getElementById('main').style.marginLeft ='0';
+				document.getElementById('main').style.transition ='0.5s';
+				slideStatus = 0;
+			}
+
+		}
+
+		function close_SlideMenu(){
+				document.getElementById('side-menu').style.width='0';
+				document.getElementById('main').style.marginLeft ='0';
+				document.getElementById('main').style.transition ='0.5s';
+				slideStatus = 0;
+		}
+
+	</script>
+</body>
+</html>
