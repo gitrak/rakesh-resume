@@ -1,0 +1,134 @@
+#A{
+  position: absolute;
+  background-color: green;
+  height: 800px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#A1{
+  position: absolute;
+  background-color: red;
+  width: 25%;
+  z-index: 1;
+  top: 1%;
+  left: 35%;
+  text-align: center;
+  z-index: 2;
+  border-radius: 22px;
+
+}
+
+#A2{
+  position: absolute;
+  background-color: yellow;
+  width: 80%;
+  height: 680px; 
+  top: 4%;
+  left: 9%;
+  border-radius: 22px;
+}
+
+#A21{
+  position: absolute;
+  background-color: blue;
+  width: 25%;
+  z-index: 1;
+  top: 10%;
+  left: 35%;
+  text-align: center;
+  z-index: 2;
+  border-radius: 22px;
+}
+
+#A22{
+  position: absolute;
+  background-color: pink;
+  width: 90%;
+  z-index: 0;
+  top: 13%;
+  left: 6%;
+  text-align: center;
+  height: 20%;
+  border-radius: 22px;
+}
+
+#A23{
+  position: absolute;
+  background-color: blue;
+  width: 25%;
+  z-index: 1;
+  top: 39%;
+  left: 35%;
+  text-align: center;
+  z-index: 2;
+  border-radius: 22px;
+}
+
+#A24{
+  position: absolute;
+  background-color: pink;
+  width: 90%;
+  z-index: 1;
+  top: 42%;
+  left: 6%;
+  text-align: center;
+  height: 20%;
+  border-radius: 22px;
+}
+
+#A25{
+  position: absolute;
+  background-color: blue;
+  width: 25%;
+  z-index: 1;
+  top: 68%;
+  left: 35%;
+  text-align: center;
+  z-index: 2;
+  border-radius: 22px;
+}
+
+#A26{
+  position: absolute;
+  background-color: pink;
+  width: 90%;
+  z-index: 0;
+  top: 71%;
+  left: 6%;
+  text-align: center;
+  height: 20%;
+  border-radius: 22px;
+}
+
+#A p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+
+
+/*.grandparent {
+  width:250px;
+  height:250px;
+  background-color:#CCCCCC;
+  position:relative;
+}
+ 
+.parent {
+  width:150px;
+  height:150px;
+  background-color:#999999;
+  position:absolute;
+  bottom:0px;
+}
+.child {
+  width:70px;
+  height:70px;
+  background-color:#666666;
+  position:absolute;
+  right:0px;
+  top:0px;
+}*/
